@@ -1,0 +1,59 @@
+.temperature {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.temperature h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.temperature p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.temperature input,
+.temperature select,
+.temperature button {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.temperature input:focus,
+.temperature select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.temperature button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.temperature button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-top: 20px;
+  font-weight: bold;
+}

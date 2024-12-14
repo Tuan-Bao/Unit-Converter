@@ -1,0 +1,66 @@
+/* Styles for the main container */
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+/* Navigation styles */
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* App content styles */
+.app {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
